@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+   font-family: Lato;
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+}
+
+.header {
+   margin-bottom: 60px;
+}
+
+[class*="__container"] {
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+.header__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 92px;
+}
+
+.bold {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+}
+
+main {
+   margin-bottom: 30px;
+}
+
+.article__text {
+   margin-bottom: 24px;
+}
+
+.article__text2 {
+   margin-bottom: 64px;
+}
+
+.article__quote {
+   padding-left: 53px;
+   margin-bottom: 64px;
+   background: url("../img/braces.png") no-repeat;
+}
+
+.article__list {
+   margin-bottom: 24px;
+}
+
+.article__list ul li {
+   padding-left: 30px;
+   background: url("../img/check.png") no-repeat 0 5px;
+}
+
+.article {
+   margin-bottom: 50px;
+}
+
+h2 {
+   font-size: 28px;
+   color: #1E212C;
+   font-weight: 900;
+   margin-bottom: 30px;
+}
+
+h3 {
+   font-size: 23px;
+   color: #1E212C;
+   font-weight: 900;
+   margin-bottom: 20px;
+}
+
+h4 {
+   font-size: 18px;
+   color: #1E212C;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+.box {
+   max-width: 600px;
+   height: 326px;
+   margin: 0 auto;
+   border: 1px solid rgba(0, 0, 0, 0.651);
+   margin-bottom: 20px;
+}
+
+.background__image {
+   background: url("../img/web.jpg");
+   max-width: 300px;
+   height: 163px;
+}
+
+.background__repeat {
+   background: url("../img/web.jpg");
+}
+
+.background__no-repeat {
+   background: url("../img/web.jpg") no-repeat;
+}
+
+.background__repeat-x {
+   background: url("../img/web.jpg") repeat-x;
+}
+
+.background__repeat-y {
+   background: url("../img/web.jpg") repeat-y;
+}
+
+.background__position-10px-20px {
+   background: url("../img/web.jpg") 10px 20px no-repeat;
+}
+
+.background__position-10per-10per {
+   background: url("../img/web.jpg") 10% 10% no-repeat;
+}
+
+.background__position-bottom-right {
+   background: url("../img/web.jpg") bottom right no-repeat;
+}
+
+.background__position-center {
+   background: url("../img/web.jpg") center no-repeat;
+}
+
+.background__attachment-scroll {
+   background: url("../img/web.jpg") no-repeat center scroll;
+}
+
+.footnote {
+   font-size: 12px;
+   color: #1E212C;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+.background__attachment-fixed {
+   background: url("../img/web.jpg") no-repeat center fixed;
+   margin-bottom: 2px;
+}
+
+.background__size-auto-250px {
+   background: url("../img/web.jpg") no-repeat center / auto 250px;
+}
+
+.background__size-contain {
+   background: url("../img/web.jpg") no-repeat center / contain;
+   max-width: 700px;
+}
+
+.background__size-cover {
+   background: url("../img/web.jpg") no-repeat center / cover;
+   max-width: 700px;
+   height: 250px;
+}
+
+.background__multiply {
+   background: url("../img/bird.png") no-repeat center fixed,
+      url("../img/floral-repeat.jpg") repeat;
+}
+
+.footer {
+   padding-top: 10px;
+   color: white;
+   height: 50px;
+   background-color: #424551;
+   text-align: center;
+}
+
+.back-to__container ul li {
+   color: rgba(0, 0, 255, 0.795);
+   padding-left: 25px;
+   background: url("../img/tag.png") no-repeat 0 6px;
+}
